@@ -4,13 +4,21 @@ This project is a Python-based web crawler that fetches and extracts data from w
 # Features
 
 1.Page Fetching Uses HTTP GET requests to fetch HTML content from web pages.
+
 2.Data Extraction Extracts headings (h1, h2), paragraphs, image URLs, and hyperlinks from the content.
+
 3.Link Crawling Finds links within pages and crawls them up to the specified depth.
+
 4.Robots.txt Handling Checks if crawling is allowed for a page before processing it.
+
 5.JavaScript Page Rendering Uses Selenium to render and fetch content from JavaScript-heavy websites.
+
 6.SQLite Storage Stores headings, paragraphs, links, and image URLs into structured database tables.
+
 7.Prevents Duplicates Avoids re-crawling and re-storing previously visited links.
+
 8.Works with Static and Dynamic Sites Automatically chooses between requests and Selenium fetching based on your preference.
+
 9.Depth Control You can set depth = 0 for single-page crawling.
 
 **Libraries Used requests:** used to make HTTP GET requests to fetch static web page content.
